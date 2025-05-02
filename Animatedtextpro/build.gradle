@@ -39,10 +39,9 @@ afterEvaluate {
         publications {
             maven(MavenPublication) {
                 from components.findByName("release")
-
-                groupId = 'https://github.com/SBSadek' // <-- Change this
+                groupId = 'com.github.SBSadek'
                 artifactId = 'animatedtextpro'
-                version = '1.1.0'
+                version = '1.2.0'
             }
         }
     }
