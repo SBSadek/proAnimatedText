@@ -23,7 +23,7 @@ allprojects {
 
 ```gradle
 dependencies {
-    implementation 'com.github.SBSadek:proAnimatedText:1.2.0'
+    implementation 'com.github.SBSadek:proAnimatedText:2.0'
 }
 ```
 
