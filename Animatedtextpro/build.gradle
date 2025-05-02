@@ -34,5 +34,18 @@ dependencies {
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
 }
+afterEvaluate {
+    publishing {
+        publications {
+            maven(MavenPublication) {
+                from components.findByName("release")
+
+                groupId = 'https://github.com/SBSadek' // <-- Change this
+                artifactId = 'animatedtextpro'
+                version = '1.0.0'
+            }
+        }
+    }
+}
 
 
