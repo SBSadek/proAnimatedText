@@ -1,6 +1,7 @@
 # AnimatedTextPro
-
 [![](https://jitpack.io/v/SBSadek/proAnimatedText.svg)](https://jitpack.io/#SBSadek/proAnimatedText)
+
+
 
 **AnimatedTextPro** হলো একটি Android লাইব্রেরি যা টাইপিং-এনিমেশনসহ একাধিক টিপস টেক্সট ঘুরিয়ে দেখাতে সাহায্য করে।
 
