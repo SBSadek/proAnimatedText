@@ -41,7 +41,7 @@ afterEvaluate {
                 from components.findByName("release")
                 groupId = 'com.github.SBSadek'
                 artifactId = 'animatedtextpro'
-                version = '1.2.0'
+                version = 'v1.0'
             }
         }
     }
